@@ -10,7 +10,6 @@ int main(){
 	}
 	printf("\n");
 	
-	
 	int flag;
 	for(int i=0;i<n-1;i++){
 		flag=0;
@@ -24,13 +23,9 @@ int main(){
 		}
 		if(flag==0)
 			break;
-		
-	}
-	
+		}
 	printf("sorted array is: \n");
-	
 	for(int i=0;i<n;i++){
 		printf("%d ", arr[i]);
-	}
-	
+	}	
 }
