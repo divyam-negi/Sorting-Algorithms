@@ -2,14 +2,12 @@
 
 int main() {
     int n;
-    
 	printf("Enter the size of the array: ");
-    scanf("%d", &n);
+        scanf("%d", &n);
     
 	int arr[n];
 
     for (int i = 0; i < n; i++) {
-        
         scanf("%d", &arr[i]);
     }
 
@@ -33,27 +31,10 @@ int main() {
 			arr[i]=temp;
 		}
 	}
-
 	printf("new array: \n");
 	for(int i=0;i<n;i++){
 		printf("%d ", arr[i]);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
     return 0;
 }
 
